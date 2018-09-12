@@ -52,6 +52,14 @@ $ docker-compose down
 
 This command stops all services and removes containers. The images will still be present locally so when you do `docker-compose up` - containers will be created almost instantly and everything will start with clean volumes.
 
+**Error when starting containers**
+
+On Windows, you might get issues with Docker saying something like `Error starting userland proxy ... input/output error`. You can try fixing it by:
+
+ - Stop all the running containers docker stop $(docker ps -a -q), then
+ - Disable experimental features in Docker (enabled by default), then
+ - Stop the Docker on your machine & restart it.
+
 ### Installing components manually
 
 If you are unable or do not with to use Docker Compose, you can download EventStore and RavenDb and the install these products locally. EventStore has no "installation" as such on Windows, you just need to extract the archive and start the executable.
