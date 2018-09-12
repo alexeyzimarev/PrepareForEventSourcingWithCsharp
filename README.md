@@ -59,7 +59,7 @@ If you are unable or do not with to use Docker Compose, you can download EventSt
 EventStore installation instructions for Ubuntu is located [here](https://eventstore.org/docs/server/installing-from-debian-repositories/)
 and instructions for running a Windows instance can be found [here](https://eventstore.org/docs/server/).
 
-RavenDb 4C can be downloaded for all platform using the link above.
+RavenDb 4 can be downloaded for all platform using the link above.
 
 Please reconsider using Docker Compose, since it is the easiest way to get started without installing anything.
 
