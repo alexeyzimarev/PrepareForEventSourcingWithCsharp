@@ -6,9 +6,9 @@ Due to the time limitation, there are many aspects of event-sourcing, which we w
 
 ## Prerequisites
 
-- .NET Core 2
-- C# IDE or editor of your choice (for example Visual Studio 2017, Rider or VS Code)
-- Docker Compose
+- .NET Core 2.1
+- C# IDE or editor of your choice (for example HetBrains Rider, VS Code or Visual Studio 2017)
+- Docker and Docker Compose
 
 The solution is using C# 7.1 features so if you are using Visual Studio - ensure you have VS 2017. Rider supports the latest C# by default or will ask you if you want to enable it.
 
@@ -16,7 +16,7 @@ Note that Docker Compose might _not_ included to your version of Docker, so you 
 
 > In case you are unable to use Docker Compose, please download the following products:
 >- [EventStore](https://eventstore.org/downloads/)
->- [RavenDB 4.0 RC](https://ravendb.net/downloads)
+>- [RavenDB 4](https://ravendb.net/downloads)
 
 *Important:* carefully read this section and ensure that everything works on your machine _before_ the workshop. When using Docker Compose, downloading images requires significant bandwidth and we will not be able to do it during the workshop due to the venue WiFi capacity.
 
@@ -59,7 +59,7 @@ If you are unable or do not with to use Docker Compose, you can download EventSt
 EventStore installation instructions for Ubuntu is located [here](https://eventstore.org/docs/server/installing-from-debian-repositories/)
 and instructions for running a Windows instance can be found [here](https://eventstore.org/docs/server/).
 
-RavenDb 4.0RC can be downloaded for all platform using the link above.
+RavenDb 4C can be downloaded for all platform using the link above.
 
 Please reconsider using Docker Compose, since it is the easiest way to get started without installing anything.
 
